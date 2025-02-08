@@ -6,7 +6,6 @@ This repository contains a fine-tuned DistilBERT model for sentiment analysis on
 Key Features:
 Built using the Hugging Face Transformers library and PyTorch.
 Tokenization with DistilBertTokenizer and fine-tuning of DistilBertForSequenceClassification.
-Handles preprocessing, training, and evaluation with minimal effort using the Trainer API.
 Evaluated on a validation set with metrics like accuracy, classification report, and confusion matrix.
 
 Requirements:
