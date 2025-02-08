@@ -8,3 +8,14 @@ Built using the Hugging Face Transformers library and PyTorch.
 Tokenization with DistilBertTokenizer and fine-tuning of DistilBertForSequenceClassification.
 Handles preprocessing, training, and evaluation with minimal effort using the Trainer API.
 Evaluated on a validation set with metrics like accuracy, classification report, and confusion matrix.
+
+Requirements:
+
+torch>=1.12.0
+transformers>=4.25.0
+datasets>=2.7.0
+scikit-learn>=1.1.3
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.4.3
+seaborn>=0.11.2
